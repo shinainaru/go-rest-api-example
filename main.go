@@ -11,6 +11,9 @@ import (
     "github.com/line/line-bot-sdk-go/v7/linebot"
 )
 
+var bot *linebot.Client
+
+
 func main() {
     var err error
     bot, err = linebot.New(os.Getenv("ChannelSecret"), os.Getenv("ChannelAccessToken"))
