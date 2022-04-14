@@ -1,4 +1,4 @@
-module github.com/bijeshos/go-rest-api-example
+module github.com/shinainaru/go-rest-api-example
 
 go 1.17
 
